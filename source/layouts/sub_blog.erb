@@ -15,6 +15,10 @@
 
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <!-- <%= yield %> -->
+    <%= current_page.data.author %>
+    <%= current_page.data.date %>
+    <%= current_page.data.text %>
+
   </body>
 </html>
